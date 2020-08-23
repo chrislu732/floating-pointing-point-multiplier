@@ -1,2 +1,2 @@
-#Floating Pointing Point Multiplier
+# Floating Pointing Point Multiplier
 The floating pointing point multiplier has two inputs for floating numbers, two inputs for a clock signal and a reset signal. It has two outputs for the result and abnormal state, one output for done signal. the multiplier is design as a finite state machine. The machine will start after the reset signal. The result is valid only if done signal is 1. There are three abnormal states which are normal (00), overflow (01), underflow (10).
